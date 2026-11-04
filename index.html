@@ -125,36 +125,48 @@
     <!-- SECTION 1 | ABERTURA (HERO) -->
     <section class="relative overflow-hidden pt-4 pb-16 md:pt-20 md:pb-24 bg-gradient-to-b from-white via-brand-cream/60 to-brand-cream">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 
                 <!-- Text Content -->
-                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="space-y-6 text-center md:text-left">
                     <p class="inline-flex items-center gap-2 text-brand-wine text-xs font-semibold uppercase tracking-widest">
                         <i class="fa-solid fa-users text-brand-terracotta"></i>
                         Campanha Tocar Junto 2026/2027
                     </p>
                     
                     <h1 class="text-3xl sm:text-4xl lg:text-5xl text-brand-graphite text-hero-title leading-tight">
-                        BANDAS E GRUPOS MUSICAIS <span class="block text-brand-terracotta font-bold italic">ENCONTRE SUA TURMA!</span>
+                        BANDAS E GRUPOS MUSICAIS <span class="hidden lg:inline whitespace-nowrap text-brand-terracotta font-bold italic">ENCONTRE SUA TURMA!</span>
                     </h1>
 
-                    <p class="text-lg text-brand-graphite leading-relaxed font-normal max-w-2xl mx-auto lg:mx-0">
+                    <p class="text-lg text-brand-graphite leading-relaxed font-normal max-w-4xl mx-auto lg:mx-0">
                         A música tem esse poder de aproximar pessoas, criar vínculos e construir pequenas comunidades. Em 2027, organizaremos um festival de Bandas e Grupos Musicais para celebrarmos o ato de fazermos música juntos.
                     </p>
 
-                    <p class="text-base text-brand-graphite/90 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                    <p class="hidden md:block text-base text-brand-graphite/90 leading-relaxed max-w-4xl mx-auto lg:mx-0">
                         Faça parte deste movimento desde o início, entrando para uma banda em formação ou participando de um de nossos cursos coletivos. Conheça as possibilidades e encontre a sua turma.
                     </p>
 
-                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                        <a href="#cursos" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-[#fbd21f] hover:brightness-95 text-brand-wine font-semibold text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
-                            <i class="fa-solid fa-guitar"></i>
-                            Conhecer Cursos e Grupos
-                        </a>
-                        <a href="#condicoes" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-white hover:bg-brand-graylight text-brand-wine font-semibold text-base border border-brand-amber transition-all">
-                            Condições Especiais
-                        </a>
-                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl p-4 sm:p-6 border-2 border-brand-terracotta/40 brand-card-shadow max-w-md w-full mx-auto">
+                    <img src="course_catalog_artifacts/poster-pratica-de-banda.png" alt="Cartaz da Prática de Banda" class="w-full h-auto rounded-xl mb-5 border border-brand-amber/30" decoding="async">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeG8duBVR2YLbc34SNghUcgsM8GBGaNTV7tjq4I04VGqgOYaA/viewform?usp=sharing&amp;ouid=110209480070679038455" target="_blank" rel="noopener noreferrer" class="block w-full py-3.5 px-4 bg-brand-terracotta hover:bg-brand-wine text-white text-xs sm:text-sm font-bold rounded-xl transition-colors text-center">
+                        Tenho interesse em Prática de Banda
+                    </a>
+                </div>
+
+                <p class="md:hidden text-base text-brand-graphite/90 leading-relaxed text-center">
+                    Faça parte deste movimento desde o início, entrando para uma banda em formação ou participando de um de nossos cursos coletivos. Conheça as possibilidades e encontre a sua turma.
+                </p>
+
+                <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4 md:col-span-2">
+                    <a href="#cursos" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full bg-[#fbd21f] hover:brightness-95 text-brand-wine font-semibold text-base transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+                        <i class="fa-solid fa-guitar"></i>
+                        Conhecer Cursos e Grupos
+                    </a>
+                    <a href="#condições" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-full bg-white hover:bg-brand-graylight text-brand-wine font-semibold text-base border border-brand-amber transition-all">
+                        Condições Especiais
+                    </a>
                 </div>
 
             </div>
@@ -182,7 +194,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
                 
                 <!-- Card 1: Já é aluno -->
-                <div class="relative bg-gradient-to-br from-brand-cream via-white to-white p-8 rounded-2xl border-2 border-brand-amber brand-card-shadow flex flex-col justify-between hover:-translate-y-1 transition-transform">
+                <div class="relative bg-gradient-to-br from-brand-cream via-white to-white p-8 rounded-2xl border-2 border-brand-amber brand-card-shadow hover:-translate-y-1 transition-transform">
                     <div class="absolute top-0 right-0 bg-brand-wine text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl rounded-tr-xl uppercase tracking-widest">
                         Alunos da Escola
                     </div>
@@ -223,15 +235,10 @@
                         </ul>
                     </div>
 
-                    <div class="mt-8 pt-4 border-t border-brand-amber/40">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFYqf2YF608UV1o_TfL4e7h3i4ILQ30baCMD2Oy2pSEfXmYQ/viewform" target="_blank" rel="noopener noreferrer" class="block w-full py-3.5 bg-brand-wine hover:bg-brand-graphite text-white font-semibold rounded-xl text-center text-sm transition-colors">
-                            Aproveitar Desconto de Aluno
-                        </a>
-                    </div>
                 </div>
 
                 <!-- Card 2: Novo Aluno -->
-                <div class="relative bg-gradient-to-br from-brand-graylight via-white to-white p-8 rounded-2xl border-2 border-brand-sage brand-card-shadow flex flex-col justify-between hover:-translate-y-1 transition-transform">
+                <div class="relative bg-gradient-to-br from-brand-graylight via-white to-white p-8 rounded-2xl border-2 border-brand-sage brand-card-shadow hover:-translate-y-1 transition-transform">
                     <div class="absolute top-0 right-0 bg-brand-sage text-white text-xs font-bold px-4 py-1.5 rounded-bl-xl rounded-tr-xl uppercase tracking-widest">
                         Novos Alunos
                     </div>
@@ -272,11 +279,6 @@
                         </ul>
                     </div>
 
-                    <div class="mt-8 pt-4 border-t border-brand-sage/40">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFYqf2YF608UV1o_TfL4e7h3i4ILQ30baCMD2Oy2pSEfXmYQ/viewform" target="_blank" rel="noopener noreferrer" class="block w-full py-3.5 bg-brand-sage hover:bg-brand-graphite text-white font-semibold rounded-xl text-center text-sm transition-colors">
-                            Iniciar Como Novo Aluno
-                        </a>
-                    </div>
                 </div>
 
             </div>
@@ -289,7 +291,7 @@
 
 
     <!-- SECTION 3 | CARDÁPIO DE EXPERIÊNCIAS COLETIVAS -->
-    <section id="cursos" class="py-16 md:py-24 bg-brand-cream">
+    <section id="cursos" class="scroll-mt-28 py-16 md:py-24 bg-brand-cream">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             
             <div class="text-center max-w-4xl mx-auto mb-10">
@@ -304,17 +306,6 @@
 
             <!-- Course Cards -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-                <!-- Prática de Banda -->
-                <div class="course-card conjunto bg-white rounded-2xl p-6 border-2 border-brand-terracotta/40 brand-card-shadow flex flex-col justify-between hover:border-brand-terracotta transition-all group">
-                    <img src="course_catalog_artifacts/poster-pratica-de-banda.png" alt="Cartaz da Prática de Banda" class="w-full h-auto rounded-xl mb-6 border border-brand-amber/30" loading="lazy" decoding="async">
-                    <h3 class="sr-only">Prática de Banda</h3>
-                    <div>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeG8duBVR2YLbc34SNghUcgsM8GBGaNTV7tjq4I04VGqgOYaA/viewform?usp=sharing&amp;ouid=110209480070679038455" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 px-4 bg-brand-terracotta hover:bg-brand-wine text-white text-xs sm:text-sm font-bold rounded-xl transition-colors text-center flex items-center justify-center gap-2 shadow-sm">
-                            <span>Tenho interesse em Prática de Banda</span>
-                        </a>
-                    </div>
-                </div>
 
                 <!-- Iniciação ao Violão -->
                 <div class="course-card iniciacao bg-white rounded-2xl p-6 border border-brand-amber/40 brand-card-shadow flex flex-col justify-between hover:border-brand-terracotta transition-all group">
@@ -344,7 +335,7 @@
                     <h3 class="sr-only">Iniciação ao Canto em Grupo</h3>
                     <div>
                         <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFYqf2YF608UV1o_TfL4e7h3i4ILQ30baCMD2Oy2pSEfXmYQ/viewform" target="_blank" rel="noopener noreferrer" class="block w-full py-3.5 px-4 bg-brand-wine hover:bg-brand-graphite text-white text-xs sm:text-sm font-semibold rounded-xl transition-colors text-center">
-                            Tenho interesse em Iniciação ao Canto em Grupo
+                            Tenho interesse em Iniciação ao Canto
                         </a>
                     </div>
                 </div>
@@ -433,9 +424,8 @@
     <!-- SECTION 4 | AULAS INDIVIDUAIS -->
     <section class="py-16 bg-white border-y border-brand-amber/30">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-2xl sm:text-3xl text-brand-graphite font-bold text-section-title leading-snug uppercase text-center mb-10">
-                <span class="block">UM DIA QUERO FAZER PARTE DE UM GRUPO.</span>
-                <span class="block">MAS, POR ENQUANTO, GOSTARIA DE COMEÇAR COM AULAS INDIVIDUAIS.</span>
+            <h2 class="text-xl sm:text-2xl text-brand-graphite font-bold text-section-title leading-snug uppercase text-center mb-8">
+                <span class="block">GOSTARIA DE COMEÇAR COM AULAS INDIVIDUAIS?</span>
             </h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 <div class="space-y-6 text-center md:text-left">
@@ -451,9 +441,6 @@
                     <p>
                         No Espaço Musical, também oferecemos aulas individuais de instrumentos e canto, respeitando os interesses, as experiências e o ritmo de aprendizagem de cada aluno.
                     </p>
-                    <p class="font-bold text-brand-wine">
-                        E, quando chegar a hora, tocar junto poderá ser o próximo passo dessa jornada.
-                    </p>
                 </div>
 
                 </div>
@@ -464,6 +451,9 @@
                         Quero conhecer os cursos individuais
                     </a>
                 </div>
+                <p class="font-bold text-brand-wine text-center md:text-left md:col-span-2">
+                    E, quando chegar a hora, tocar junto poderá ser o próximo passo dessa jornada.
+                </p>
             </div>
         </div>
     </section>
@@ -501,12 +491,12 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
                 
-                <div>
-                    <img src="course_catalog_artifacts/brand-logo-white.png" alt="Espaço Musical Ricardo Breim — música como linguagem" class="w-64 max-w-full h-auto mb-3" loading="lazy" decoding="async">
+                <div class="text-center md:text-left">
+                    <img src="course_catalog_artifacts/brand-logo-white.png" alt="Espaço Musical Ricardo Breim — música como linguagem" class="w-64 max-w-full h-auto mb-3 mx-auto md:mx-0" loading="lazy" decoding="async">
                     <p class="text-xs text-brand-graymid leading-relaxed">
                         Formando músicos e construindo comunidades através do afeto e da arte desde a sua fundação.
                     </p>
-                    <nav aria-label="Redes sociais" class="flex items-center gap-4 mt-4 text-lg">
+                    <nav aria-label="Redes sociais" class="flex items-center justify-center md:justify-start gap-4 mt-4 text-lg">
                         <a href="https://www.facebook.com/EspacoMusical/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook" class="text-brand-graylight hover:text-brand-gold transition-colors"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
                         <a href="https://www.instagram.com/espacomusicalricardobreim/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram" class="text-brand-graylight hover:text-brand-gold transition-colors"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
                         <a href="https://www.youtube.com/channel/UCECVLZxgQFjY_r5HwCyLlUg" target="_blank" rel="noopener noreferrer" aria-label="YouTube" title="YouTube" class="text-brand-graylight hover:text-brand-gold transition-colors"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
@@ -514,24 +504,26 @@
                 </div>
 
                 <!-- Contact & Location -->
-                <div>
-                    <h4 class="text-white font-semibold text-xs uppercase tracking-widest mb-3 text-brand-gold">Contato & Localização</h4>
-                    <ul class="space-y-2 text-xs text-brand-graylight">
-                        <li class="flex items-start gap-2">
-                            <i class="fa-solid fa-location-dot text-brand-terracotta mt-0.5" aria-hidden="true"></i>
-                            <a href="https://maps.google.com/?q=Rua+Paulist%C3%A2nia,+162,+Vila+Madalena,+S%C3%A3o+Paulo,+SP,+05440-000" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">
-                                <span class="block">Rua Paulistânia, 162, Vila Madalena</span>
-                                <span class="block">São Paulo/SP, CEP 05440-000</span>
-                            </a>
-                        </li>
-                        <li><i class="fa-solid fa-phone text-brand-terracotta mr-2"></i><a href="tel:+551138132955" class="hover:text-white transition-colors">(11) 3813-2955</a></li>
-                        <li><i class="fa-brands fa-whatsapp text-brand-terracotta mr-2"></i><a href="https://wa.me/5511986660064" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">WhatsApp: (11) 98666-0064</a></li>
-                        <li><i class="fa-solid fa-envelope text-brand-terracotta mr-2"></i><a href="mailto:contato@espacomusical.com.br" class="hover:text-white transition-colors">contato@espacomusical.com.br</a></li>
-                    </ul>
+                <div class="flex flex-col items-center">
+                    <div class="max-w-md mx-auto text-center">
+                        <h4 class="text-white font-semibold text-sm uppercase tracking-widest mb-4 text-brand-gold">Contato & Localização</h4>
+                        <ul class="space-y-3 text-sm text-brand-graylight md:text-base">
+                            <li class="flex items-start justify-center gap-2">
+                                <i class="fa-solid fa-location-dot text-brand-terracotta mt-1" aria-hidden="true"></i>
+                                <a href="https://maps.google.com/?q=Rua+Paulist%C3%A2nia,+162,+Vila+Madalena,+S%C3%A3o+Paulo,+SP,+05440-000" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors text-center">
+                                    <span class="block">Rua Paulistânia, 162, Vila Madalena</span>
+                                    <span class="block">São Paulo/SP, CEP 05440-000</span>
+                                </a>
+                            </li>
+                            <li class="text-center"><i class="fa-solid fa-phone text-brand-terracotta mr-2"></i><a href="tel:+551138132955" class="hover:text-white transition-colors">(11) 3813-2955</a></li>
+                            <li class="text-center"><i class="fa-brands fa-whatsapp text-brand-terracotta mr-2"></i><a href="https://wa.me/5511986660064" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">WhatsApp: (11) 98666-0064</a></li>
+                            <li class="text-center"><i class="fa-solid fa-envelope text-brand-terracotta mr-2"></i><a href="mailto:contato@espacomusical.com.br" class="hover:text-white transition-colors">contato@espacomusical.com.br</a></li>
+                        </ul>
+                    </div>
                 </div>
 
                 <!-- Institutional Disclaimer -->
-                <div>
+                <div class="text-center md:text-left">
                     <h4 class="text-white font-semibold text-xs uppercase tracking-widest mb-3 text-brand-gold">Aviso Importante</h4>
                     <p class="text-xs text-brand-graymid leading-relaxed">
                         A manifestação de interesse não garante vaga, horário ou a abertura imediata de turmas. As turmas estão sujeitas a quórum mínimo e confirmação por parte da secretaria.
